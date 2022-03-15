@@ -1,6 +1,6 @@
 package ioop2;
 
-public class While
+public class DoWhile
 {
 	public static void main(String[] args) {
 	    String name="SidduNaidu";
