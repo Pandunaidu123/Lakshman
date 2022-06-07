@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: pink;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>User Profile</title>
+</head>
+<style>
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+</style>
+<body>
+	<div class="id" style="text-align: center;">
+		<u><h1>User Profile</h1></u><br>
+		<form action="prof.jsp" method="post">
+			Personal Information &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="editprof.html">Edit</a>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br>
+			<br> <input type="text" name="name"
+				placeholder="Enter your Firstname">&nbsp&nbsp&nbsp&nbsp <input
+				type="text" name="lname" placeholder="Enter your Lastname">&nbsp&nbsp&nbsp&nbsp<br>
+			<br> Your Gender : <input type="radio" name="gender"
+				value="male"> Male <input type="radio" name="gender"
+				value="female"> Female <input type="radio" name="gender"
+				value="other"> Other<br>
+			<br> Email Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#">Edit</a>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#">Change Password</a> <br>
+			<br> <input type="text" name="email"
+				placeholder="Enter your Email"><br>
+			<br> Mobile Number : <input type="text" name="mob"
+				placeholder="Enter your MobileNumber"><br>
+			<br>
+			<button class="button">Save</button>
+			<h3>FAQs</h3>
+			<p style="font-style: italic;">
+				<b>What happens when I update my email address (or mobile
+					number)?</b><br>
+				<br> Your login email id (or mobile number) changes, likewise.
+				You'll receive all your account related communication on your
+				updated email address (or mobile number). <br>
+				<br>
+				<b>When will my Shopping site account be updated with the new
+					email address (or mobile number)?</b><br>
+				<br> It happens as soon as you confirm the verification code
+				sent to your email (or mobile) and save the changes. <br>
+				<br>
+				<b>What happens to my existing Shopping site account when I
+					update my email address (or mobile number)?</b><br>
+				<br> Updating your email address (or mobile number) doesn't
+				invalidate your account. Your account remains fully functional.
+				You'll continue seeing your Order history, saved information and
+				personal details. <br>
+				<br>
+				<b>Does my Seller account get affected when I update my email
+					address?</b><br>
+				<br> Shopping site has a 'single sign-on' policy. Any changes
+				will reflect in your Seller account also.
+			</p>
+			<a href="#">Deactivate Account</a>
+		</form>
+	</div>
+</body>
+</html>
