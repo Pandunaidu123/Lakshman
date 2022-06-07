@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>ABC</servlet-name>
+		<servlet-class>com.telusko.AddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ABC</servlet-name>
+		<url-pattern>/mul</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DemoServlet</servlet-name>
+		<servlet-class>com.telusko.DemoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DemoServlet</servlet-name>
+		<url-pattern>/DS</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>Pandu</servlet-name>
+		<servlet-class>com.telusko.DS1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pandu</servlet-name>
+		<url-pattern>/print</url-pattern>
+	</servlet-mapping>
+
+</web-app>
